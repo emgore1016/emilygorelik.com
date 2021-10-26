@@ -1,18 +1,25 @@
 /*
-
 DREAM PULSE
-
 https://templatemo.com/tm-536-dream-pulse
-
 */
+
+:root {
+  --my-navy: #021627;
+  --my-gray: #6D819C;
+  --my-main: #83D6D3;
+  --my-main-transparent: #83d6d3cc;
+  --my-main-transparent: #83d6d3; /*----------------------------- gets rid of transparancy of top, only keep if the img is solid*/
+  --my-white: #E6EBF0;
+  --my-white-transparent: #e6ebf0ef;
+}
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   overflow-x: hidden;
-  color: #99EEEE;
-  background-color: #666;
+  color: var(--my-gray); /*paragraph text (not top page)*/
+  background-color: var(--my-main); /*left menu bar*/
 }
 
 p {
@@ -33,20 +40,20 @@ a {
 }
 
 .tm-color-primary {
-  color: #069;
+  color: var(--my-navy); /*section header text*/
 }
 
 .tm-color-gray {
-  color: #333;
+  color: var(--my-gray); /*paragraph text (top page)*/
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--my-main-transparent); /*transparent left menu bar*/
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid white;
+  background-color: var(--my-white-transparent); /*top page text box background*/
+  border: 1px solid var(--my-gray); /*top page text box border*/
 }
 
 .tm-intro {
@@ -88,14 +95,14 @@ a {
   width: 100%;
   max-width: 230px;
   min-height: 160px;
-  color: white;
+  color: var(--my-navy); /*my name*/
   text-align: center;
   margin: 70px auto 90px;
 }
 
 .tm-double-border-1,
 .tm-double-border-2 {
-  border: 1px solid #fff;
+  border: 1px solid var(--my-navy); /*my name border*/
   position: relative;
 }
 
@@ -105,7 +112,7 @@ a {
 }
 
 .tm-border-gray {
-  border-color: #cdcecf;
+  border-color: var(--my-navy); /*page box border*/
 }
 
 .tm-box-pad {
@@ -154,7 +161,7 @@ a {
 }
 
 .tm-main-nav > li > a {
-  color: white;
+  color: var(--my-navy); /*left menu text*/
 }
 
 .tm-main-nav {
@@ -165,7 +172,7 @@ a {
   display: block;
   width: 15px;
   height: 15px;
-  background-color: white;
+  background-color: var(--my-navy); /*left menu active tab*/
 }
 
 .nav-link {
@@ -210,8 +217,8 @@ a {
 .tm-social-link {
   width: 40px;
   height: 40px;
-  color: black;
-  background-color: white;
+  color: var(--my-main); /*icon*/
+  background-color: var(--my-navy); /*icon background*/
   margin: 8px;
   border-radius: 5px;
   padding: 0;
@@ -222,16 +229,16 @@ a {
 
 .tm-social-link:hover,
 .tm-social-link:focus {
-  background-color: #069;
-  color: white;
+  background-color: var(--my-gray);
+  color: var(--my-main); /*icon*/
 }
 
-.tm-footer-link {
-  color: white;
+.tm-footer-link, .tm-footer {
+  color: var(--my-navy);
 }
 
 .tm-footer-link:hover {
-  color: #F93;
+  color: var(--my-gray);
   text-decoration: none;
 }
 
@@ -240,7 +247,7 @@ a {
 }
 
 .tm-section-icon {
-  color: #369;
+  color: var(--my-navy); /*icon color*/
   width: 120px;
   height: 120px;
   display: flex;
@@ -301,9 +308,10 @@ a {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #98999a;
+  color: var(--my-navy); /*gallery bubbles underneath*/
   opacity: 1;
 }
+
 
 /* 
   Gallery Item Hover Effect
