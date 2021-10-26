@@ -11,8 +11,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   overflow-x: hidden;
-  color: #99EEEE;
-  background-color: #666;
+  color: red;
+  background-color: orange;
 }
 
 p {
@@ -33,11 +33,11 @@ a {
 }
 
 .tm-color-primary {
-  color: #069;
+  color: yellow;
 }
 
 .tm-color-gray {
-  color: #333;
+  color: lightgreen;
 }
 
 .tm-bg-black-transparent {
@@ -88,14 +88,14 @@ a {
   width: 100%;
   max-width: 230px;
   min-height: 160px;
-  color: white;
+  color: blue;
   text-align: center;
   margin: 70px auto 90px;
 }
 
 .tm-double-border-1,
 .tm-double-border-2 {
-  border: 1px solid #fff;
+  border: 1px solid purple;
   position: relative;
 }
 
@@ -105,7 +105,7 @@ a {
 }
 
 .tm-border-gray {
-  border-color: #cdcecf;
+  border-color: brown;
 }
 
 .tm-box-pad {
@@ -154,7 +154,7 @@ a {
 }
 
 .tm-main-nav > li > a {
-  color: white;
+  color: pink;
 }
 
 .tm-main-nav {
@@ -165,7 +165,7 @@ a {
   display: block;
   width: 15px;
   height: 15px;
-  background-color: white;
+  background-color: turquoise;
 }
 
 .nav-link {
@@ -222,7 +222,7 @@ a {
 
 .tm-social-link:hover,
 .tm-social-link:focus {
-  background-color: #069;
+  background-color: sandybrown;
   color: white;
 }
 
@@ -231,7 +231,7 @@ a {
 }
 
 .tm-footer-link:hover {
-  color: #F93;
+  color: slateblue;
   text-decoration: none;
 }
 
@@ -240,7 +240,7 @@ a {
 }
 
 .tm-section-icon {
-  color: #369;
+  color: salmon;
   width: 120px;
   height: 120px;
   display: flex;
@@ -301,7 +301,7 @@ a {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #98999a;
+  color: greenyellow;
   opacity: 1;
 }
 
