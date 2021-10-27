@@ -453,13 +453,13 @@ figure.effect-bubba:hover p {
   transform: translate3d(0, 0, 0);
 }
 
-/* Clients */
+/* Projects */
 .tm-section-pad {
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.tm-clients-images {
+.tm-projects-images {
   max-width: 1040px;
 }
 
