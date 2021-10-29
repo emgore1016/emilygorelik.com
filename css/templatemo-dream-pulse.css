@@ -8,7 +8,7 @@ https://templatemo.com/tm-536-dream-pulse
   --my-gray: #6D819C;
   --my-main: #83D6D3;
   --my-main-transparent: #83d6d3cc;
-  --my-main-transparent: #83d6d3; /*----------------------------- gets rid of transparancy of top, only keep if the img is solid*/
+  --my-main-transparent: #83d6d3; /*------------------ gets rid of transparancy of top, only keep if the img is solid*/
   --my-white: #E6EBF0;
   --my-white-transparent: #e6ebf0ef;
 }
@@ -69,7 +69,7 @@ a {
 }
 
 .parallax-window {
-  min-height: 662px;
+  height: 100vh;
   background: transparent;
 }
 
