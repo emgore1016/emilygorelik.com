@@ -8,10 +8,18 @@ https://templatemo.com/tm-536-dream-pulse
   --my-gray: #6D819C;
   --my-main: #83D6D3;
   --my-main-transparent: #83d6d3cc;
-  --my-main-transparent: #83d6d3; /*----------------------------- gets rid of transparancy of top, only keep if the img is solid*/
+  --my-main-transparent: #83d6d3; /*------------------ gets rid of transparancy of top, only keep if the img is solid*/
   --my-white: #E6EBF0;
   --my-white-transparent: #e6ebf0ef;
 }
+
+/* emily added styles */
+.brand-img {
+  width: 100%;
+  padding: 20px 30px 30px 20px; /* make sure right and bottom are 10px more */
+
+}
+/* end emily added styles */
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -69,7 +77,7 @@ a {
 }
 
 .parallax-window {
-  min-height: 662px;
+  height: 100vh;
   background: transparent;
 }
 
@@ -453,13 +461,13 @@ figure.effect-bubba:hover p {
   transform: translate3d(0, 0, 0);
 }
 
-/* Clients */
+/* Projects */
 .tm-section-pad {
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.tm-clients-images {
+.tm-projects-images {
   max-width: 1040px;
 }
 
@@ -566,7 +574,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--my-main-transparent);
   }
 
   .tm-brand-box {
@@ -604,7 +612,7 @@ figure.effect-bubba:hover p {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--my-main-transparent);
     color: white;
     padding: 10px 15px;
     transition: all 0.3s ease;
