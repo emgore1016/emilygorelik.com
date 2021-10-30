@@ -17,7 +17,11 @@ https://templatemo.com/tm-536-dream-pulse
 .brand-img {
   width: 100%;
   padding: 20px 30px 30px 20px; /* make sure right and bottom are 10px more */
+}
 
+.social-img {
+  width: 100%; 
+  padding: 15%;
 }
 /* end emily added styles */
 
