@@ -13,6 +13,14 @@ https://templatemo.com/tm-536-dream-pulse
   --my-white-transparent: #e6ebf0ef;
 }
 
+/* emily added styles */
+.brand-img {
+  width: 100%;
+  padding: 20px 30px 30px 20px; /* make sure right and bottom are 10px more */
+
+}
+/* end emily added styles */
+
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
