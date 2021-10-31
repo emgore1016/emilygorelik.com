@@ -253,49 +253,6 @@ a {
   justify-content: center;
 }
 
-/* Our Work */
-
-.tm-gallery-wrap {
-  max-width: 1040px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 1600px) {
-  .tm-gallery-wrap {
-    max-width: 780px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .tm-gallery-wrap {
-    max-width: 520px;
-  }
-}
-
-@media (max-width: 991px) {
-  .tm-gallery-wrap {
-    max-width: 780px;
-  }
-}
-
-@media (max-width: 767px) {
-  .tm-gallery-wrap {
-    max-width: 520px;
-  }
-}
-
-@media (max-width: 480px) {
-  .tm-gallery-wrap {
-    max-width: 260px;
-  }
-}
-
-.tm-gallery-item {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .slick-dots {
   bottom: -50px;
 }
@@ -310,14 +267,8 @@ a {
   opacity: 1;
 }
 
-
-/* 
-  Gallery Item Hover Effect
-  https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
-*/
-
 /* Common style */
-.tm-gallery-item figure {
+figure {
   position: relative;
   float: left;
   overflow: hidden;
@@ -327,7 +278,7 @@ a {
   cursor: pointer;
 }
 
-.tm-gallery-item figure img {
+figure img {
   position: relative;
   display: block;
   min-height: 100%;
@@ -335,7 +286,7 @@ a {
   opacity: 0.8;
 }
 
-.tm-gallery-item figure figcaption {
+figure figcaption {
   padding: 1em;
   color: #fff;
   text-transform: uppercase;
@@ -344,13 +295,13 @@ a {
   backface-visibility: hidden;
 }
 
-.tm-gallery-item figure figcaption::before,
-.tm-gallery-item figure figcaption::after {
+figure figcaption::before,
+figure figcaption::after {
   pointer-events: none;
 }
 
-.tm-gallery-item figure figcaption,
-.tm-gallery-item figure figcaption > a {
+figure figcaption,
+figure figcaption > a {
   position: absolute;
   top: 0;
   left: 0;
@@ -363,7 +314,7 @@ a {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.tm-gallery-item figure figcaption > a {
+figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -371,21 +322,21 @@ a {
   opacity: 0;
 }
 
-.tm-gallery-item figure h2 {
+figure h2 {
   word-spacing: -0.15em;
   font-weight: 300;
 }
 
-.tm-gallery-item figure h2 span {
+figure h2 span {
   font-weight: 800;
 }
 
-.tm-gallery-item figure h2,
-.tm-gallery-item figure p {
+figure h2,
+figure p {
   margin: 0;
 }
 
-.tm-gallery-item figure p {
+figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
 }
@@ -651,7 +602,7 @@ figure.effect-bubba:hover p {
     margin-bottom: 25px;
   }
 
-  .tm-gallery-item figure p {
+  figure p {
     font-size: 63%;
     padding: 0;
     line-height: 1.5;
