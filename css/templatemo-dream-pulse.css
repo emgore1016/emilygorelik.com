@@ -253,20 +253,6 @@ a {
   justify-content: center;
 }
 
-.slick-dots {
-  bottom: -50px;
-}
-
-.slick-dots li button:before {
-  font-size: 16px;
-  opacity: 0.2;
-}
-
-.slick-dots li.slick-active button:before {
-  color: var(--my-navy); /*gallery bubbles underneath*/
-  opacity: 1;
-}
-
 /* Common style */
 figure {
   position: relative;
@@ -622,10 +608,6 @@ figure.effect-bubba:hover p {
 }
 
 @media (max-width: 383px) {
-  .slick-dots {
-    bottom: -40px;
-  }
-
   .tm-box-pad {
     padding: 50px 30px;
   }
