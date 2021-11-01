@@ -93,6 +93,7 @@ a {
   width: 100%;
   padding: 55px;
   margin: auto;
+  background-color: transparent;
 }
 
 .tm-section-title {
