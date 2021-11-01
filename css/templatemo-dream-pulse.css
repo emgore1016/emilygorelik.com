@@ -34,6 +34,15 @@ https://templatemo.com/tm-536-dream-pulse
   padding: 10px;
   border-radius: 50%;
 }
+
+.fancy-border-box {
+  box-sizing: content-box;
+  width: 100%;
+  max-width: 230px;
+  min-height: 160px;
+  color: var(--my-navy); /*my name*/
+  text-align: center;
+}
 /* end emily added styles */
 
 body {
