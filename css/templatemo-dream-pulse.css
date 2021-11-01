@@ -76,8 +76,7 @@ a {
   max-width: 500px;
   width: 100%;
   padding: 55px;
-  margin-right: 0;
-  margin-left: auto;
+  margin: auto;
 }
 
 .tm-section-title {
@@ -95,6 +94,11 @@ a {
   height: auto;
   max-width: 1275px;
   padding: 40px 60px;
+}
+
+#who-is-emily {
+  height: 100vh;
+  max-width: none;
 }
 
 #intro {
