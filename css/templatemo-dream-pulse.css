@@ -43,6 +43,11 @@ https://templatemo.com/tm-536-dream-pulse
   color: var(--my-navy); /*my name*/
   text-align: center;
 }
+
+footer {
+  bottom: 5vh;
+  position: absolute;
+}
 /* end emily added styles */
 
 body {
@@ -134,7 +139,7 @@ a {
   min-height: 160px;
   color: var(--my-navy); /*my name*/
   text-align: center;
-  margin: 70px auto 90px;
+  margin: 40px;
 }
 
 .tm-double-border-1,
@@ -230,7 +235,11 @@ a {
 }
 
 .tm-social-links {
-  margin-bottom: 27px;
+  left: 50%;
+  POSITION: absolute;
+  width: max-content;
+  transform: translateX(-50%);
+  bottom: 100px;
 }
 
 .tm-social-link {
