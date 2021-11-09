@@ -97,6 +97,7 @@ a {
 
 .tm-section-title {
   font-size: 1.6rem;
+  margin-bottom: none;
 }
 
 .parallax-window {
