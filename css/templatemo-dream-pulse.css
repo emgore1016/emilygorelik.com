@@ -43,6 +43,25 @@ https://templatemo.com/tm-536-dream-pulse
   color: var(--my-navy); /*my name*/
   text-align: center;
 }
+
+footer {
+  bottom: 5vh;
+  position: absolute;
+}
+
+#divider {
+  background-color: var(--my-main);
+  height: max-content;
+  color: var(--my-navy);
+  font-size: 3vh;
+  justify-content: center;
+  transform: translateY(-100%);
+  padding: 2vh;
+}
+
+.divider-text {
+  margin: 10px 0;
+}
 /* end emily added styles */
 
 body {
@@ -51,7 +70,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: var(--my-gray); /*paragraph text (not top page)*/
-  background-color: var(--my-main); /*left menu bar*/
+  /* background-color: var(--my-main); left menu bar */
 }
 
 p {
@@ -97,6 +116,7 @@ a {
 
 .tm-section-title {
   font-size: 1.6rem;
+  margin-bottom: none;
 }
 
 .parallax-window {
@@ -110,6 +130,7 @@ a {
   height: auto;
   max-width: 1275px;
   padding: 40px 60px;
+  margin: auto;
 }
 
 #who-is-emily {
@@ -133,7 +154,7 @@ a {
   min-height: 160px;
   color: var(--my-navy); /*my name*/
   text-align: center;
-  margin: 70px auto 90px;
+  margin: 40px;
 }
 
 .tm-double-border-1,
@@ -193,7 +214,7 @@ a {
 .tm-section-wrap {
   width: calc(100% - 400px);
   margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
 }
 
 .tm-main-nav > li > a {
@@ -229,7 +250,11 @@ a {
 }
 
 .tm-social-links {
-  margin-bottom: 27px;
+  left: 50%;
+  POSITION: absolute;
+  width: max-content;
+  transform: translateX(-50%);
+  bottom: 100px;
 }
 
 .tm-social-link {
