@@ -49,7 +49,7 @@ footer {
   position: absolute;
 }
 
-#divider {
+.divider {
   background-color: var(--my-main);
   height: max-content;
   color: var(--my-navy);
