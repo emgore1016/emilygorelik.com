@@ -116,6 +116,7 @@ a {
   height: auto;
   max-width: 1275px;
   padding: 40px 60px;
+  margin: auto;
 }
 
 #who-is-emily {
@@ -199,7 +200,7 @@ a {
 .tm-section-wrap {
   width: calc(100% - 400px);
   margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
 }
 
 .tm-main-nav > li > a {
